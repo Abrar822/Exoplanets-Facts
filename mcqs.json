@@ -1,0 +1,300 @@
+{
+    "questions": [
+      {
+        "question": "What is the largest planet in our solar system?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": ["Saturn", "Earth", "Neptune"]
+      },
+      {
+        "question": "What is the main component of the Sun?",
+        "correct_answer": "Hydrogen",
+        "incorrect_answers": ["Helium", "Oxygen", "Carbon"]
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "correct_answer": "Mars",
+        "incorrect_answers": ["Venus", "Mercury", "Jupiter"]
+      },
+      {
+        "question": "What is the name of the galaxy that contains our Solar System?",
+        "correct_answer": "The Milky Way",
+        "incorrect_answers": ["Andromeda", "Triangulum", "Whirlpool"]
+      },
+      {
+        "question": "What is a black hole?",
+        "correct_answer": "A region of space where gravity is so strong that nothing can escape.",
+        "incorrect_answers": ["A massive asteroid", "A collapsing star that emits light", "A large gas cloud"]
+      },
+      {
+        "question": "What is the smallest planet in our solar system?",
+        "correct_answer": "Mercury",
+        "incorrect_answers": ["Mars", "Venus", "Pluto"]
+      },
+      {
+        "question": "What do we call planets outside our Solar System?",
+        "correct_answer": "Exoplanets",
+        "incorrect_answers": ["Dwarf planets", "Rogue planets", "Gas giants"]
+      },
+      {
+        "question": "Which planet is famous for its beautiful rings?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": ["Uranus", "Neptune", "Jupiter"]
+      },
+      {
+        "question": "What is the approximate age of the Universe?",
+        "correct_answer": "13.8 billion years",
+        "incorrect_answers": ["4.5 billion years", "10 billion years", "20 billion years"]
+      },
+      {
+        "question": "What causes a comet's tail to form?",
+        "correct_answer": "The Sun's heat and solar wind",
+        "incorrect_answers": ["Gravitational forces", "Collisions with asteroids", "Atmospheric pressure"]
+      },
+      {
+        "question": "What is the closest star to Earth?",
+        "correct_answer": "The Sun",
+        "incorrect_answers": ["Proxima Centauri", "Sirius", "Alpha Centauri"]
+      },
+      {
+        "question": "What is the main belt of asteroids located between?",
+        "correct_answer": "Mars and Jupiter",
+        "incorrect_answers": ["Earth and Mars", "Jupiter and Saturn", "Saturn and Uranus"]
+      },
+      {
+        "question": "Which planet has the highest mountain in the Solar System?",
+        "correct_answer": "Mars",
+        "incorrect_answers": ["Earth", "Venus", "Jupiter"]
+      },
+      {
+        "question": "What is the name of NASA's telescope that observes distant galaxies?",
+        "correct_answer": "Hubble Space Telescope",
+        "incorrect_answers": ["James Webb Telescope", "Kepler Telescope", "Chandra Telescope"]
+      },
+      {
+        "question": "What shape is the Milky Way galaxy?",
+        "correct_answer": "Spiral",
+        "incorrect_answers": ["Elliptical", "Irregular", "Spherical"]
+      },
+      {
+        "question": "What is the term for a rocky object that enters Earth's atmosphere and burns up?",
+        "correct_answer": "Meteor",
+        "incorrect_answers": ["Asteroid", "Comet", "Meteorite"]
+      },
+      {
+        "question": "Which planet is known for having the Great Red Spot?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": ["Mars", "Saturn", "Neptune"]
+      },
+      {
+        "question": "What is the phenomenon where light cannot escape a black hole called?",
+        "correct_answer": "Event Horizon",
+        "incorrect_answers": ["Singularity", "Escape Velocity", "Dark Boundary"]
+      },
+      {
+        "question": "What is the primary gas in the atmosphere of Venus?",
+        "correct_answer": "Carbon dioxide",
+        "incorrect_answers": ["Nitrogen", "Oxygen", "Hydrogen"]
+      },
+      {
+        "question": "Which planet is the hottest in the Solar System?",
+        "correct_answer": "Venus",
+        "incorrect_answers": ["Mercury", "Mars", "Jupiter"]
+      },
+      {
+        "question": "What is the term for a star that suddenly increases in brightness?",
+        "correct_answer": "Nova",
+        "incorrect_answers": ["Supernova", "Quasar", "Pulsar"]
+      },
+      {
+        "question": "What is the closest galaxy to the Milky Way?",
+        "correct_answer": "Andromeda Galaxy",
+        "incorrect_answers": ["Triangulum Galaxy", "Large Magellanic Cloud", "Whirlpool Galaxy"]
+      },
+      {
+        "question": "What is the term for a small body of ice, rock, and dust that orbits the Sun?",
+        "correct_answer": "Comet",
+        "incorrect_answers": ["Asteroid", "Meteor", "Dwarf Planet"]
+      },
+      {
+        "question": "Which planet has the most moons?",
+        "correct_answer": "Saturn",
+        "incorrect_answers": ["Jupiter", "Neptune", "Uranus"]
+      },
+      {
+        "question": "What is the name of the first artificial satellite to orbit Earth?",
+        "correct_answer": "Sputnik 1",
+        "incorrect_answers": ["Explorer 1", "Apollo 11", "Voyager 1"]
+      },
+      {
+        "question": "What is a light-year?",
+        "correct_answer": "The distance light travels in one year",
+        "incorrect_answers": ["The time it takes light to travel to the Sun", "A measure of brightness of stars", "The time it takes Earth to orbit the Sun"]
+      },
+      {
+        "question": "Which planet rotates on its side compared to its orbit?",
+        "correct_answer": "Uranus",
+        "incorrect_answers": ["Neptune", "Venus", "Saturn"]
+      },
+      {
+        "question": "What is the term for a planet that orbits a star outside our Solar System?",
+        "correct_answer": "Exoplanet",
+        "incorrect_answers": ["Dwarf planet", "Protoplanet", "Rogue planet"]
+      },
+      {
+        "question": "What is the name of the spacecraft that first landed humans on the Moon?",
+        "correct_answer": "Apollo 11",
+        "incorrect_answers": ["Challenger", "Voyager 1", "Pioneer 10"]
+      },
+      {
+        "question": "What is the name of the line that marks the boundary of a black hole?",
+        "correct_answer": "Event Horizon",
+        "incorrect_answers": ["Gravitational Edge", "Photon Sphere", "Accretion Disk"]
+      },
+          {
+            "question": "Which planet is the densest in our Solar System?",
+            "correct_answer": "Earth",
+            "incorrect_answers": ["Jupiter", "Mars", "Neptune"]
+          },
+          {
+            "question": "What is the largest type of star in the universe?",
+            "correct_answer": "Red supergiant",
+            "incorrect_answers": ["White dwarf", "Neutron star", "Blue giant"]
+          },
+          {
+            "question": "What element is most abundant in the universe?",
+            "correct_answer": "Hydrogen",
+            "incorrect_answers": ["Helium", "Oxygen", "Carbon"]
+          },
+          {
+            "question": "What is the coldest planet in our Solar System?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": ["Uranus", "Saturn", "Mars"]
+          },
+          {
+            "question": "Which planet experiences the longest day (rotation period)?",
+            "correct_answer": "Venus",
+            "incorrect_answers": ["Mercury", "Earth", "Mars"]
+          },
+          {
+            "question": "What is the name of the largest moon of Saturn?",
+            "correct_answer": "Titan",
+            "incorrect_answers": ["Enceladus", "Europa", "Ganymede"]
+          },
+          {
+            "question": "Which planet has the shortest year (orbital period)?",
+            "correct_answer": "Mercury",
+            "incorrect_answers": ["Venus", "Mars", "Earth"]
+          },
+          {
+            "question": "Which planet has the most similar gravitational force to Earth?",
+            "correct_answer": "Venus",
+            "incorrect_answers": ["Mars", "Neptune", "Mercury"]
+          },
+          {
+            "question": "Which space probe was the first to visit Pluto?",
+            "correct_answer": "New Horizons",
+            "incorrect_answers": ["Voyager 1", "Pioneer 10", "Galileo"]
+          },
+          {
+            "question": "Which planet in our Solar System has the fastest winds?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": ["Saturn", "Jupiter", "Mars"]
+          },
+          {
+            "question": "What is the primary component of Mars' atmosphere?",
+            "correct_answer": "Carbon dioxide",
+            "incorrect_answers": ["Oxygen", "Nitrogen", "Methane"]
+          },
+          {
+            "question": "What is the second brightest object in the night sky?",
+            "correct_answer": "The Moon",
+            "incorrect_answers": ["Venus", "Mars", "Jupiter"]
+          },
+          {
+            "question": "Which moon has the largest subsurface ocean in the Solar System?",
+            "correct_answer": "Europa",
+            "incorrect_answers": ["Ganymede", "Titan", "Callisto"]
+          },
+          {
+            "question": "Which planet's atmosphere is mostly composed of nitrogen and methane?",
+            "correct_answer": "Titan",
+            "incorrect_answers": ["Earth", "Mars", "Venus"]
+          },
+          {
+            "question": "What type of galaxy is most common in the universe?",
+            "correct_answer": "Elliptical",
+            "incorrect_answers": ["Spiral", "Irregular", "Lenticular"]
+          },
+          {
+            "question": "What is the most distant object humans have sent a spacecraft to?",
+            "correct_answer": "Interstellar space (Voyager 1)",
+            "incorrect_answers": ["Pluto", "Neptune", "Mars"]
+          },
+          {
+            "question": "Which planet has the largest canyon in the Solar System?",
+            "correct_answer": "Mars",
+            "incorrect_answers": ["Earth", "Venus", "Mercury"]
+          },
+          {
+            "question": "Which planet has the largest volcano in the Solar System?",
+            "correct_answer": "Mars",
+            "incorrect_answers": ["Earth", "Venus", "Mercury"]
+          },
+          {
+            "question": "Which star is closest to the Solar System after the Sun?",
+            "correct_answer": "Proxima Centauri",
+            "incorrect_answers": ["Sirius", "Alpha Centauri A", "Betelgeuse"]
+          },
+          {
+            "question": "Which planet was demoted to dwarf planet status in 2006?",
+            "correct_answer": "Pluto",
+            "incorrect_answers": ["Ceres", "Eris", "Makemake"]
+          },
+          {
+            "question": "What is the brightest star in the night sky?",
+            "correct_answer": "Sirius",
+            "incorrect_answers": ["Vega", "Betelgeuse", "Rigel"]
+          },
+          {
+            "question": "What phenomenon causes day and night on Earth?",
+            "correct_answer": "Earth's rotation",
+            "incorrect_answers": ["Earth's revolution", "Solar flares", "Lunar phases"]
+          },
+          {
+            "question": "What is the second largest planet in our Solar System?",
+            "correct_answer": "Saturn",
+            "incorrect_answers": ["Jupiter", "Neptune", "Earth"]
+          },
+          {
+            "question": "What is the average distance between Earth and the Sun?",
+            "correct_answer": "1 AU (Astronomical Unit)",
+            "incorrect_answers": ["1 light-year", "10 million km", "100 AU"]
+          },
+          {
+            "question": "Which planet is known to have the most extreme surface temperature variations?",
+            "correct_answer": "Mercury",
+            "incorrect_answers": ["Venus", "Earth", "Neptune"]
+          },
+          {
+            "question": "Which planet was discovered by Johann Galle in 1846?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": ["Uranus", "Pluto", "Mars"]
+          },
+          {
+            "question": "Which is the largest moon in the Solar System?",
+            "correct_answer": "Ganymede",
+            "incorrect_answers": ["Titan", "Europa", "Callisto"]
+          },
+          {
+            "question": "Which planet takes the longest to orbit the Sun?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": ["Uranus", "Saturn", "Mars"]
+          },
+          {
+            "question": "What is the name of the first rover to successfully land on Mars?",
+            "correct_answer": "Sojourner",
+            "incorrect_answers": ["Opportunity", "Spirit", "Curiosity"]
+          }
+    ]
+  }
+  
