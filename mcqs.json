@@ -294,7 +294,107 @@
             "question": "What is the name of the first rover to successfully land on Mars?",
             "correct_answer": "Sojourner",
             "incorrect_answers": ["Opportunity", "Spirit", "Curiosity"]
+          },
+          {
+            "question": "What is the fate of the Universe if dark energy continues accelerating expansion?",
+            "correct_answer": "Big Freeze",
+            "incorrect_answers": ["Big Crunch", "Big Rip", "Steady State"]
+          },
+          {
+            "question": "What event marked the beginning of the Universe?",
+            "correct_answer": "The Big Bang",
+            "incorrect_answers": ["The Great Collapse", "The Cosmic Burst", "The Universal Ignition"]
+          },
+          {
+            "question": "Which force is responsible for the formation of stars and galaxies?",
+            "correct_answer": "Gravity",
+            "incorrect_answers": ["Electromagnetism", "Nuclear force", "Dark energy"]
+          },
+          {
+            "question": "What do astronomers call a star that has exploded in a brilliant burst of light?",
+            "correct_answer": "Supernova",
+            "incorrect_answers": ["Nova", "Quasar", "Pulsar"]
+          },
+          {
+            "question": "What type of star is the Sun?",
+            "correct_answer": "Yellow dwarf",
+            "incorrect_answers": ["Red giant", "White dwarf", "Neutron star"]
+          },
+          {
+            "question": "What is believed to exist at the center of most galaxies?",
+            "correct_answer": "Supermassive black hole",
+            "incorrect_answers": ["Giant star", "Quasar", "Nebula"]
+          },
+          {
+            "question": "Which mission was the first to successfully land humans on the Moon?",
+            "correct_answer": "Apollo 11",
+            "incorrect_answers": ["Apollo 13", "Gemini 4", "Voyager 1"]
+          },
+          {
+            "question": "Which telescope succeeded Hubble and observes in infrared?",
+            "correct_answer": "James Webb Space Telescope",
+            "incorrect_answers": ["Spitzer Telescope", "Kepler Telescope", "Chandra Telescope"]
+          },
+          {
+            "question": "What cosmic phenomenon is known to bend light due to gravity?",
+            "correct_answer": "Gravitational lensing",
+            "incorrect_answers": ["Photon burst", "Dark energy pull", "Tidal disruption"]
+          },
+          {
+            "question": "What percentage of the Universe is made up of dark matter?",
+            "correct_answer": "About 27%",
+            "incorrect_answers": ["10%", "50%", "75%"]
+          },
+          {
+            "question": "Which element was created during the Big Bang?",
+            "correct_answer": "Hydrogen",
+            "incorrect_answers": ["Oxygen", "Iron", "Carbon"]
+          },
+          {
+            "question": "What is the cosmic microwave background?",
+            "correct_answer": "Radiation left over from the Big Bang",
+            "incorrect_answers": ["Galactic dust", "Solar wind", "Black hole emission"]
+          },
+          {
+            "question": "Which space observatory is dedicated to studying exoplanets?",
+            "correct_answer": "Kepler Space Telescope",
+            "incorrect_answers": ["Hubble Space Telescope", "Voyager 1", "Chandra Observatory"]
+          },
+          {
+            "question": "What is the term for the edge of the observable Universe?",
+            "correct_answer": "Cosmic Horizon",
+            "incorrect_answers": ["Event Horizon", "Galaxy Wall", "Dark Limit"]
+          },
+          {
+            "question": "Which galaxy is on a collision course with the Milky Way?",
+            "correct_answer": "Andromeda Galaxy",
+            "incorrect_answers": ["Whirlpool Galaxy", "Large Magellanic Cloud", "Triangulum Galaxy"]
+          },
+          {
+            "question": "What is the term for an extremely dense star that emits beams of radiation?",
+            "correct_answer": "Pulsar",
+            "incorrect_answers": ["Quasar", "Nova", "Neutron star"]
+          },
+          {
+            "question": "How old is the Milky Way galaxy estimated to be?",
+            "correct_answer": "13.6 billion years",
+            "incorrect_answers": ["10 billion years", "5 billion years", "15 billion years"]
+          },
+          {
+            "question": "Which planet is sometimes referred to as Earth's twin?",
+            "correct_answer": "Venus",
+            "incorrect_answers": ["Mars", "Neptune", "Mercury"]
+          },
+          {
+            "question": "Which space probe took the famous Pale Blue Dot image of Earth?",
+            "correct_answer": "Voyager 1",
+            "incorrect_answers": ["New Horizons", "Pioneer 10", "Hubble"]
+          },
+          {
+            "question": "What is the farthest spacecraft from Earth?",
+            "correct_answer": "Voyager 1",
+            "incorrect_answers": ["Voyager 2", "Pioneer 10", "New Horizons"]
           }
-    ]
+        ]
   }
   
