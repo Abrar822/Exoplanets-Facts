@@ -6,7 +6,7 @@
     "gravity_m_s2": 3.7,
     "day_length_hours": 1408,
     "moons": 0,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/mercury.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/mercury.png"
   },
   {
     "name": "Venus",
@@ -15,7 +15,7 @@
     "gravity_m_s2": 8.87,
     "day_length_hours": 5832,
     "moons": 0,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/venus.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/venus.png"
   },
   {
     "name": "Earth",
@@ -24,7 +24,7 @@
     "gravity_m_s2": 9.8,
     "day_length_hours": 24,
     "moons": 1,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/earth.png?raw=true"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/earth.png"
   },
   {
     "name": "Mars",
@@ -33,7 +33,7 @@
     "gravity_m_s2": 3.71,
     "day_length_hours": 24.6,
     "moons": 2,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/mars.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/mars.png"
   },
   {
     "name": "Jupiter",
@@ -42,7 +42,7 @@
     "gravity_m_s2": 24.79,
     "day_length_hours": 9.9,
     "moons": 92,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/jupiter.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/jupiter.png"
   },
   {
     "name": "Saturn",
@@ -51,7 +51,7 @@
     "gravity_m_s2": 10.44,
     "day_length_hours": 10.7,
     "moons": 83,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/exo1.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/exo1.png"
   },
   {
     "name": "Uranus",
@@ -60,7 +60,7 @@
     "gravity_m_s2": 8.69,
     "day_length_hours": 17.2,
     "moons": 27,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/uranus.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/uranus.png"
   },
   {
     "name": "Neptune",
@@ -69,6 +69,6 @@
     "gravity_m_s2": 11.15,
     "day_length_hours": 16.1,
     "moons": 14,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/neptune.png"
+    "image": "https://raw.githubusercontent.com/Abrar822/Exoplanets-Facts/main/neptune.png"
   }
 ]
