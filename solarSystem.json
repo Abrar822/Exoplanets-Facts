@@ -24,7 +24,7 @@
     "gravity_m_s2": 9.8,
     "day_length_hours": 24,
     "moons": 1,
-    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/earth.png"
+    "image": "https://github.com/Abrar822/Exoplanets-Facts/blob/main/earth.png?raw=true"
   },
   {
     "name": "Mars",
