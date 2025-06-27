@@ -58,5 +58,65 @@
     {
         "term": "Gaia Magnitude",
         "definition": "A measure of a star’s brightness as observed by the Gaia space observatory. Lower values indicate brighter stars, while higher values mean dimmer stars."
+    },
+    {
+        "term": "Solar System",
+        "definition": "The Solar System is the collection of the Sun and all the objects that are gravitationally bound to it, including eight planets, their moons, dwarf planets, asteroids, comets, and meteoroids. It is located in the Milky Way galaxy."
+    },
+    {
+        "term": "Name",
+        "definition": "The official name of the planet in the Solar System."
+    },
+    {
+        "term": "Radius (km)",
+        "definition": "The distance from the center of the planet to its surface, measured in kilometers."
+    },
+    {
+        "term": "Distance from Sun (million km)",
+        "definition": "The average distance of the planet from the Sun, measured in million kilometers."
+    },
+    {
+        "term": "Gravity (m/s²)",
+        "definition": "The surface gravity of the planet, measured in meters per second squared (m/s²)."
+    },
+    {
+        "term": "Day Length (hours)",
+        "definition": "The duration of one full rotation of the planet on its axis, measured in Earth hours."
+    },
+    {
+        "term": "Moons",
+        "definition": "The number of natural satellites (moons) that orbit the planet."
+    },
+    {
+        "term": "Orbital Period (days)",
+        "definition": "The time the planet takes to complete one full orbit around the Sun, measured in Earth days."
+    },
+    {
+        "term": "Average Temperature (°C)",
+        "definition": "The average surface temperature of the planet, measured in degrees Celsius."
+    },
+    {
+        "term": "Type",
+        "definition": "The classification of the planet based on its composition, such as Rocky (terrestrial) or Gas Giant."
+    },
+    {
+        "term": "Atmosphere",
+        "definition": "The primary gases present in the planet's atmosphere."
+    },
+    {
+        "term": "Escape Velocity (km/s)",
+        "definition": "The minimum velocity required to escape the planet's gravitational pull, measured in kilometers per second (km/s)."
+    },
+    {
+        "term": "Discovery",
+        "definition": "The historical record of when the planet was first known or discovered."
+    },
+    {
+        "term": "Fun Fact",
+        "definition": "An interesting or surprising fact about the planet."
+    },
+    {
+        "term": "Image",
+        "definition": "A URL or link to an image that represents the planet visually."
     }
 ]
