@@ -110,13 +110,5 @@
     {
         "term": "Discovery",
         "definition": "The historical record of when the planet was first known or discovered."
-    },
-    {
-        "term": "Fun Fact",
-        "definition": "An interesting or surprising fact about the planet."
-    },
-    {
-        "term": "Image",
-        "definition": "A URL or link to an image that represents the planet visually."
     }
 ]
