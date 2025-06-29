@@ -5,7 +5,8 @@ An interactive space exploration website designed to engage users with astronomy
 
 📂 Project Description
 Space.A is a web-based application that provides users with:
-An exoplanet explorer with access to over 4,000 celestial bodies.
+An exoplanet explorer with access to over 4,000 exoplanets.
+An informative section of our Solar System.
 An interactive quiz to test space knowledge.
 A glossary containing key astronomical terms.
 An informative About Us section.
@@ -27,5 +28,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 © 2025 Abrar. All rights reserved.
 
 🙌 Author
-AbrarGitHub
+Abrar822
 
