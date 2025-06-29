@@ -68,7 +68,7 @@
     height: 100%;
     width: auto;
     flex: 1;
-    padding: 10px;
+    padding: 5px;
 }
 .planet-image img {
     width: 300px;
@@ -82,7 +82,8 @@
 .planet-data {
     display: flex;
     scroll-behavior: smooth;
-    font-size: 1.5rem;
+    gap: 3px;
+    font-size: 1.4rem;
 }
 .planet-data h2 {
     font-size: 4rem;
@@ -124,7 +125,7 @@
     }
     .planet-data {
         margin: 0;
-        gap: 5px;
+        gap: 10px;
         font-size: 1.4rem;
     }
     .planet-data h2 {
