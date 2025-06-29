@@ -1,8 +1,7 @@
 Space.A 🚀
 An interactive space exploration website designed to engage users with astronomy through exploration, learning, and quizzes.
 
-🌐 Live Demo
-Visit here: https://abrar822.github.io/Space.A/
+🌐 Visit here: https://abrar822.github.io/Space.A/
 
 📂 Project Description
 Space.A is a web-based application that provides users with:
