@@ -36,6 +36,9 @@ let exploreExosContainer = document.querySelector('.explore-exos-container');
 let exploreExosBtn = document.querySelectorAll('.exploreExosBtn');
 exploreExosBtn.forEach((btn) => {
     btn.addEventListener('click', () => {
+        // showing the few elements
+        exoSearchBar.style.display = 'flex';
+        exoButtons.style.display = 'flex';
         // hiding the other visible sections
         for(let section of sections) {
             if(getComputedStyle(section).display !== 'none' && !section.classList.contains('explore-exos-container')) {
