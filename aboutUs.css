@@ -1,0 +1,83 @@
+.about-us-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* top: 70px; */
+    top: 1000px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
+}
+.about-website, .about-creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 0 10px;
+}
+.about-creator {
+    justify-content: flex-start;
+    gap: 15px;
+    flex-direction: row;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+.about-creator img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.about-website .title {
+    align-self: flex-start;
+    font-size: 4rem;
+}
+.about-creator .title {
+    align-self: flex-start;
+    font-size: clamp(2rem, 7vw, 4rem);
+    height: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.website-content {
+    font-size: 1.5rem;
+}
+.features {
+    font-size: 2rem;
+}
+.contact-us-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+.contact-us-icons li:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 950px) {
+    .about-website .title {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .website-content {
+        font-size: 1.3rem;
+    }
+    .features {
+        margin-top: 15px;
+    }
+    .contact-us-icons {
+        margin: 15px 0;
+    }
+}

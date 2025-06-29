@@ -1,0 +1,255 @@
+.explore-exos-container {
+    position: absolute;
+    /* top: 70px; */
+    top: 1000px;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    padding: 10px 20px;
+    height: auto;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+    gap: 5px;
+    scroll-behavior: smooth;
+}
+.exos-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+}
+.exos-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(0, 204, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.exos-card:hover {
+    transform: scale(1.02);
+}
+.exoButtons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+}
+.exoButtons .prev, .exoButtons .next, .range {
+    width: 70px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #fff;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.range {
+    cursor: auto;
+}
+.enter, .clear {
+    cursor: pointer;
+    padding: 0 5px;
+}
+.clear:hover, .enter:hover {
+    transform: scale(1.02);
+}
+.range {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: auto;
+    padding: 10px;
+    gap: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type = "number"] {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 60px;
+    cursor: pointer;
+}
+input[type = 'number']::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.exoButtons .prev:hover, .exoButtons .next:hover{
+    transform: scale(1.02);
+}
+.exos-content img {
+    background-position: center;
+    background-size: cover;
+    width: 97%;
+    height: 120px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.exos-content h3 {
+    margin: 0 5px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.exo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 5px;
+}
+.explore-exos-container .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.explore-exos-container .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 40px;
+}
+.explore-exos-container .image-container img {
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+}
+.explore-exos-container .data-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    font-size: 1.3rem;
+    gap: 5px;
+    margin-left: 40px;
+}
+.data-container h3 {
+    font-size: 3rem;
+}
+.explore-exos-container .back {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 120px;
+    height: 40px;
+    align-self: flex-end;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #fff;
+}
+.explore-exos-container .back:hover {
+    transform: scale(1.02);
+}
+
+
+/* For the mobile view */
+@media (max-width: 950px) {
+    .below-searchBar {
+        display: flex;
+        margin-bottom: 5px;
+        z-index: 5;
+    }
+    .explore-exos-container .searchBar {
+        position: sticky;
+        top: 70px;
+        z-index: 5;
+    }
+    .exoButtons {
+        position: sticky;
+        top: 150px;
+        padding: 0;
+    }
+    .explore-exos-container {
+        align-items: center;
+        padding: 0 10px;
+    }
+    .exos-card {
+        width: 220px;
+        height: 320px;
+    }
+    .exo-div {
+        margin-top: 20px;
+    }
+    .range {
+        font-size: 1rem;
+        justify-content: space-between;
+        gap: 2px;
+        padding: 10px 5px;
+    }
+    .enter, .clear {
+        padding: 0 5px;
+    }
+    .numBtn {
+        margin: 0 2px;
+    }
+    .explore-exos-container .main-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .explore-exos-container .image-container {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .explore-exos-container .data-container {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    .explore-exos-container .image-container img {
+        width: 320px;
+        height: auto;
+    }
+    .data-container h3 {
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .explore-exos-container .back {
+        width: auto;
+        height: auto;
+        padding: 5px;
+        top: 0;
+        left: 0;
+        margin: 5px;
+    }
+}
