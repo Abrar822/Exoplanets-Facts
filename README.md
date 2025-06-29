@@ -28,5 +28,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 © 2025 Abrar. All rights reserved.
 
 🙌 Author
-Abrar822
+Abrar [@abrar822] (https://github.com/abrar822)
 
