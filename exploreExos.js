@@ -70,30 +70,34 @@ let displayNext = exoButtons.querySelector('.next');
 
 // For displaying the exos data
 function showExosData() {
-    activeData = (filteredData.length > 0) ? filteredData : data;
-    let startRange = range.querySelector('.startRange').value;
-    let endRange = range.querySelector('.endRange').value;
-    let start, end;
-    if(!endRange && !startRange) {
-        start = displayCount * 20;
-        end = (displayCount + 1) * 20;
-    } else {
-        start = startRange;
-        end = endRange;
-    }
-    exosContent.innerHTML = ``;
-    // The desired number of cards are generated and then the event listeners respective to them are generated and on click perform the action specified
-    for(let i = start; i < end; i++) {
-        if(i >= activeData.length) break;
-        let exosCard = document.createElement('div');
-        generateCards(activeData[i], exosCard);
-        // Adding event listener
-        exosCard.addEventListener('click', () => {
-            exoSearchBar.style.display = 'none';
-            exoButtons.style.display = 'none';
-            showDetails(activeData[i]);
-        })
-    }
+    loader.style.display = 'flex';
+    setTimeout(() => {
+        activeData = (filteredData.length > 0) ? filteredData : data;
+        let startRange = range.querySelector('.startRange').value;
+        let endRange = range.querySelector('.endRange').value;
+        let start, end;
+        if(!endRange && !startRange) {
+            start = displayCount * 20;
+            end = (displayCount + 1) * 20;
+        } else {
+            start = startRange;
+            end = endRange;
+        }
+        exosContent.innerHTML = ``;
+        // The desired number of cards are generated and then the event listeners respective to them are generated and on click perform the action specified
+        for(let i = start; i < end; i++) {
+            if(i >= activeData.length) break;
+            let exosCard = document.createElement('div');
+            generateCards(activeData[i], exosCard);
+            // Adding event listener
+            exosCard.addEventListener('click', () => {
+                exoSearchBar.style.display = 'none';
+                exoButtons.style.display = 'none';
+                showDetails(activeData[i]);
+            })
+        }
+        loader.style.display = 'none';
+    }, 100);
 }
 
 // funtction to generate cards
