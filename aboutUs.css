@@ -66,6 +66,10 @@
 .contact-us-icons li:hover {
     transform: scale(1.1);
 }
+.source a {
+    cursor: pointer;
+    width: max-content;
+}
 @media (max-width: 950px) {
     .about-website .title {
         font-size: 3rem;
