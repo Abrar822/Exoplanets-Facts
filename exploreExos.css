@@ -42,7 +42,7 @@
     margin: 10px;
     cursor: pointer;
     overflow: hidden;
-    padding: 10px;
+    padding: 5px;
 }
 .exos-card:hover {
     transform: scale(1.02);
