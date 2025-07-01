@@ -182,7 +182,7 @@ clear.addEventListener('click', () => {
 
 // For the displayNext
 displayNext.addEventListener('click', () => {
-    if(displayCount < Math.ceil((activeData.length / 20))) {
+    if(displayCount < Math.ceil((activeData.length / 20)) && (range.querySelector('.startRange').value === '') && (range.querySelector('.endRange').value === '')) {
         ++displayCount;
         showExosData();
     }
