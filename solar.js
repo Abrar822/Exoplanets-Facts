@@ -79,7 +79,7 @@ async function loadSolarOnPage() {
                     loadSolarOnPage();
                     setTimeout(() => {
                         solarSystemContainer.scrollTop = savedScroll;
-                    }, 10);
+                    }, 100);
                 })
         })
     }
