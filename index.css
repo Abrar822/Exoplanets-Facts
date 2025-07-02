@@ -1,0 +1,465 @@
+/* hiddenContainer: z-index:2 */
+/* navbar: z-index: 4  */
+/* sidebar: z-index: 3 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: clip;
+}
+::selection {
+    background-color: #fff;
+    color: #0298be;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+/* For Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Loader & its animation */
+body .loader {
+    display: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #0298be;
+    border-top: 4px solid #00ccff;
+    border-right: 4px solid #00ccff;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    animation: loaderAnimation 0.5s linear infinite;
+}
+@keyframes loaderAnimation {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+/* Being online class */
+.beingOnline {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    color: #fff;
+    background-color: black;
+    font-size: 1rem;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+/* Class that generates circle per random click */
+.circles {
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #fff;
+    animation: 0.5s circleAnim;
+    z-index: 3;
+}
+@keyframes circleAnim {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        width: 10px;
+        height: 10px;
+    }
+}
+/* Class that generates the stars */
+.stars {
+    background-color: #fff;
+    height: 2px;
+    width: 2px;
+    position: fixed;
+    z-index: -1;
+}
+/* Already visible container */
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.container .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    padding: 15px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    transform: translateX(-100%);
+    transition: all 1s linear;
+}
+.centered-content h1 {
+    font-size: 8rem;
+    background: linear-gradient(to right, #00ccff, #0298be, #d400d4);
+    background-clip: text;
+    color: transparent;
+    transform: translateY(-1000%);
+    transition: all 1s linear;
+}
+.centered-content h1 span {
+    color: #fff;
+}
+.centered-content h2 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* For explore button */
+.explore {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 30px;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #0298be;
+    border: 4px solid #0298be;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.explore::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0298be;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: all 0.25s ease-in-out;
+}
+.explore:hover::before {
+    transform: translateX(0%);
+}
+.explore:hover {
+    color: #fff;
+    border: 4px solid #fff;
+}
+/* Hidden container */
+.hiddenContainer {
+    position: absolute;
+    top: 1000px;
+    width: 97vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+    z-index: 2;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.hiddenContainer::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #2abfe4, #0298be, #2abfe4);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hiddenContainer::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    padding: 5px 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #2abfe4, #0298be, #2abfe4);    
+    border-radius: 20px;
+    z-index: 4;
+    flex-shrink: 0;
+}
+.navbar .logo {
+    font-size: 2.5rem;
+}
+.navbar .menuList {
+    font-size: clamp(1.4rem, 2.3vw, 1.7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.2vw;
+}
+.navbar .menuList li {
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.navbar .menuList li:hover {
+    border-bottom: 3px solid #fff;
+    transition: all 0.1s ease-in-out;
+}
+.menuBtn, .sidebar, .menuList2, .sidebar .closeBtn {
+    display: none;
+}
+.closeBtn, .menuBtn, button {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.closeBtn:hover {
+    transform: scale(1.2);
+}
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+    padding-bottom: 20px;
+}
+.hero::-webkit-scrollbar {
+    width: 0px;
+}
+.left, .right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    flex: 1;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+    padding: 0 30px;
+}
+.left h1 {
+    font-size: 6vw;
+}
+.left p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.right img {
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 430px;
+    max-height: 430px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.right img:hover {
+    transform: scale(1.01);
+}
+
+
+
+/* For mobile view */
+@media (max-width: 950px) {
+    /* sidebar: z-index:3   navbar: z-index:4 */
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+    .hiddenContainer::-webkit-scrollbar {
+        width: 4px;
+    }
+    .circles {
+        border: 2px solid #fff;
+    }
+    .stars {
+        width: 1px;
+        height: 1px;
+    }
+    .explore {
+        width: 150px;
+        height: 50px;
+        font-size: 1.6rem;
+    }
+    .explore::before, .navbar .menuList {
+        display: none;
+    }
+    .explore:active, .explore:hover {
+        background-color: #0298be;
+        color: #fff;
+        border: 3px solid #fff;
+    }
+    /* Static Homepage container and its content*/
+    .container {
+        padding: 20px;
+        height: 100vh;
+    }
+    .container .logo, .navbar .logo {
+        font-size: 2rem;
+    }
+    .centered-content h1 {
+        font-size: 4.3rem;
+        margin-bottom: 10px;
+    }
+    .centered-content h2 {
+        font-size: 1.3rem;
+    }
+    /* For dynamic Homepage content */
+    .navbar {
+        background-image: linear-gradient(to right, #3fd7fc, #129cbf, #17d1ff);
+        height: 60px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+    }
+    .left h1 {
+        font-size: 2.7rem;
+    }
+    .left p {
+        font-size: 1.3rem;
+    }
+    .menuBtn, .sidebar .closeBtn, .sidebar .menuList2 {
+        display: inline-block;
+    }
+    .closeBtn {
+        padding-left: 10px;
+    }
+    .closeBtn i {
+        font-size: 2rem;
+    }
+    .closeBtn:active, .menuBtn:active {
+        transform: scale(1.2);
+    }
+    .closeBtn:hover {
+        transform: scale(1);
+    }
+    .navbar {
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 15px;
+        z-index: 4;
+    }
+    .navbar .logo {
+        padding-right: 40vw;
+    }
+    .right img {
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        max-width: 300px;
+    }
+    .right img:hover {
+        transform: scale(1);
+    }
+    .sidebar {
+        position: absolute;
+        top: 75px;
+        /* top 1500px */
+        display: none;
+        z-index: 3;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: clamp(1.7rem, 7vw, 1.8rem);
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(2px);
+        color: #fff;
+        padding: 10px;
+        border: 3px solid transparent;
+        border-radius: 20px;
+        width: 85%;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+    .sidebar .closeBtn {
+        align-self: flex-start;
+    }
+    .menuList2 li {
+        border-bottom: 2px solid black;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+}
+/* Between 800px and 950px */
+@media (min-width: 800px) and (max-width: 950px) {
+    .navbar .logo {
+        padding-right: 70vw;
+    }
+}
+/* Between 600px and 799px */
+@media (min-width: 600px) and (max-width: 799px) {
+    .navbar .logo {
+        padding-right: 60vw;
+    }
+}
+/* Between 450px and 599px */
+@media (min-width: 450px) and (max-width: 599px) {
+    .navbar .logo {
+        padding-right: 50vw;
+    }
+}
+/* Between 350px and 449px */
+@media (min-width: 350px) and (max-width: 449px) {
+    .navbar .logo {
+        padding-right: 40vw;
+    }
+}
+/* Upto 349px */
+@media (max-width: 349px) {
+    .navbar .logo {
+        padding-right: 30vw;
+    }
+}

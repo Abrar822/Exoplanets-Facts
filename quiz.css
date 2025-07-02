@@ -1,0 +1,182 @@
+.quiz-container {
+    position: absolute;
+    top: 1000px;
+    background-color: rgba(0, 204, 255, 0.1);
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    min-height: 50%;
+    max-width: 60%;
+}
+.titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #fff;
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    padding: 5px;
+}
+.titlebar .score {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.quesbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 15px;
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+}
+.quesbar .qNo {
+    height: 100%;
+    align-self: flex-start;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 15px;
+    gap: 7px;
+    width: 100%;
+}
+.options button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px 0;
+    transition: transform 0.15s ease;
+    font-size: 1.4rem;
+}
+.options button:hover {
+    transform: scale(1.01);
+}
+.handlingbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+}
+.handlingbar button {
+    width: 150px;
+    font-size: 1.4rem;
+    height: auto;
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: transparent;
+    transition: transform 0.15s ease;
+}
+.handlingbar button:hover, .initial-content .btns button:hover {
+    transform: scale(1.02);
+}
+.titlebar, .content {
+    display: none;
+}
+.initial-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.initial-content .btns button {
+    width: auto;
+    height: 60px;
+    font-size: 1.7rem;
+    padding: 5px 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: transparent;
+}
+.initial-content .welcome {
+    font-size: 9vw;
+    width: 100%;
+    text-align: center;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    gap: 20vw;
+}
+
+/* Mobile view */
+@media (max-width: 650px) {
+    .quiz-container {
+        justify-content: center;
+        width: 90vw;
+        margin: 25px;
+        padding: 10px;
+        min-height: none;
+        max-width: none;
+    }
+    .titlebar {
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .titlebar .title, .titlebar .score {
+        font-size: clamp(1.4rem, 7vw, 2rem);
+    }
+    .quesbar {
+        font-size: 1.5rem;
+    }
+    .options button {
+        font-size: 1.4rem;
+    }
+    .handlingbar button {
+        width: 100px;
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    .options button:hover, .handlingbar button:active {
+        transform: scale(1.04);
+    }
+    .handlingbar button:hover {
+        transform: scale(1);
+    }
+    .initial-content .welcome {
+        font-size: 4rem;
+    }
+    .initial-content .btns button {
+        margin-top: 20px;
+    }
+}
+
+/* For tablet view */
+@media (min-width: 651px) and (max-width: 950px) {
+    .quiz-container {
+        max-width: 70%;
+        margin-top: 10px;
+    }
+    .titlebar {
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+    }
+}
