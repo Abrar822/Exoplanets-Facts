@@ -74,15 +74,19 @@ glossaryBtn.forEach((btn) => {
 let searchBar = document.querySelector('.searchBar');
 let search = searchBar.querySelector('.search');
 search.addEventListener('input', () => {
-    let inputValue = search.value.toLowerCase();
-    let allTerms = document.querySelectorAll('.term');
-    let allSmallBox = document.querySelectorAll('.small-box');
-    allSmallBox.forEach((smallBox) => {
-        let term = smallBox.querySelector('.term').textContent.toLocaleLowerCase();
-        if(term.startsWith(inputValue)) {
-            smallBox.style.display = 'inline-block';
-        } else {
-            smallBox.style.display = 'none';
-        }
-    })
+    loader.style.display = 'flex';
+    setTimeout(() => {
+        let inputValue = search.value.toLowerCase();
+        let allTerms = document.querySelectorAll('.term');
+        let allSmallBox = document.querySelectorAll('.small-box');
+        allSmallBox.forEach((smallBox) => {
+            let term = smallBox.querySelector('.term').textContent.toLocaleLowerCase();
+            if(term.startsWith(inputValue)) {
+                smallBox.style.display = 'inline-block';
+            } else {
+                smallBox.style.display = 'none';
+            }
+        })
+        loader.style.display = 'none';
+    }, 100);
 })
