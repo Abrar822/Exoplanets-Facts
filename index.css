@@ -235,7 +235,7 @@ body .loader {
     align-items: center;
     gap: 40px;
     gap: 15px;
-    gap: clamp(15px, 3vw, 40px);
+    gap: clamp(15px, 3vw, 45px);
 }
 .navbar .menuList li {
     border-bottom: 3px solid transparent;
