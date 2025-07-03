@@ -272,7 +272,7 @@ input[type = 'number']::placeholder {
         word-break: break-word;
     }
     .exo-div {
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .range {
         font-size: 1rem;
