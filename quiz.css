@@ -151,10 +151,15 @@
     .options button {
         font-size: 1.4rem;
     }
+    .handlingbar {
+        gap: 10px;
+        justify-content: space-between;
+    }
     .handlingbar button {
-        width: 100px;
+        width: auto;
         font-size: 1.4rem;
         margin-top: 20px;
+        flex: 1;
     }
     .options button:hover, .handlingbar button:active {
         transform: scale(1.04);
