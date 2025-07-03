@@ -233,8 +233,6 @@ body .loader {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    gap: 15px;
     gap: clamp(15px, 3vw, 45px);
 }
 .navbar .menuList li {
