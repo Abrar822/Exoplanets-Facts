@@ -124,7 +124,7 @@ function checkAnswer() {
             if(opt.innerText === correctAnswer) {
                 opt.style.border = '3px solid green';
                 ++score;
-                printedScore.innerText = 'Score: ' + score;
+                printedScore.innerText = 'Score: ' + score + ' / 10';
             } else {
                 opt.style.border = '3px solid red';
             }
@@ -145,7 +145,7 @@ startQuiz.addEventListener('click', async (event) => {
     await getQuiz();
     loader.style.display = 'none';
     score = 0, count = 0;
-    printedScore.innerText = 'Score: ' + score;
+    printedScore.innerText = 'Score: ' + score + ' / 10';
     loadQuestion();
     checkAnswer();
     // hiding the initial-content and displaying the mcq
@@ -160,7 +160,7 @@ restart.addEventListener('click', (event) => {
     welcome.innerText = 'Welcome';
     count = 0;
     score = 0;
-    printedScore.innerText = 'Score: ' + score;
+    printedScore.innerText = 'Score: ' + score + ' / 10';
     initialContent.style.display = 'flex';
     content.style.display = 'none';
     titlebar.style.display = 'none';
