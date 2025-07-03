@@ -119,6 +119,13 @@
     width: 100%;
     text-align: center;
 }
+.initial-content p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.initial-content .p2 {
+    margin-bottom: 10px;
+}
 .btns {
     display: flex;
     justify-content: center;
@@ -142,8 +149,11 @@
         justify-content: space-between;
         padding: 5px;
     }
-    .titlebar .title, .titlebar .score {
-        font-size: clamp(1.4rem, 7vw, 2rem);
+    .titlebar .title {
+        font-size: clamp(1.3rem, 7vw, 2rem);
+    }
+    .titlebar .score {
+        font-size: clamp(1.3rem, 5.6vw, 2rem);
     }
     .quesbar {
         font-size: 1.5rem;
@@ -174,6 +184,14 @@
         margin-top: 20px;
     }
 }
+@media (max-width: 360px) {
+    .titlebar .title {
+        font-size: clamp(1.3rem, 6vw, 2rem);
+    }
+    .titlebar .score {
+        font-size: clamp(1rem, 4vw, 2rem);
+    }
+}
 
 /* For tablet view */
 @media (min-width: 651px) and (max-width: 950px) {
@@ -182,6 +200,9 @@
         margin-top: 10px;
     }
     .titlebar {
-        font-size: clamp(1.6rem, 3vw, 2.2rem);
+        font-size: clamp(1.5rem, 3vw, 2.2rem);
+    }
+    .titlebar .score {
+        font-size: clamp(1.4rem, 3vw, 2.2rem);
     }
 }
