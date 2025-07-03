@@ -265,7 +265,7 @@ input[type = 'number']::placeholder {
     }
     .exos-card {
         width: 220px;
-        height: 330px;
+        height: 320px;
     }
     .exos-content h3 {
         font-size: 1.5rem;
